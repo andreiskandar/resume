@@ -1,0 +1,204 @@
+%-------------------------
+% Resume
+% Author : Andre Iskandar
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ifsym}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Andre Mahajaya Iskandar} \\ \vspace{5pt}
+    \textbf{\large Full Stack Web Developer}\vspace{5pt} \\
+    \small \faPhoneSquare{ }+1-778-895-6373 $|$ \faHome{ }Burnaby, BC, V3N 0E7 \\
+    \href{mailto:andre.m.iskandar@gmail.com}{\faEnvelope{ }andre.m.iskandar@gmail.com} $|$ 
+    \href{https://linkedin.com/in/andreiskandar}{\faLinkedin{ }linkedin.com/in/andreiskandar} $|$
+    \href{https://github.com/andreiskandar}{\faGithub{ }github.com/andreiskandar} \vspace{-10pt}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{}
+I am a technology-driven Full-stack Web Developer with a diverse skill set and background in quality control and manufacturing. I am passionate about learning the intricacies of how the web works and excited in applying responsive design principles, website optimization and Model View Controller methods of organizing code. 
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+
+
+% \begin{tabular}{ l l }
+%     \textbf{Languages         } & JavaScript, HTML5/CSS, SQL  \\ 
+%     \textbf{Frameworks        } & React, Node, Express, EJS, Ruby on Rails  \\ 
+%     \textbf{Libraries         } & Axios, Moment, WebSocket, socket.io, cookie-session, bcrypt \\
+%     \textbf{Developer Tools   } & Github, CircleCI, Netlify, Heroku, jQuery, Bootstrap, Material-UI  \\
+%     \textbf{Automated-Testing } & Mocha, Chai, Cypress, Jest, Storybook
+% \end{tabular}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, HTML5/CSS, SQL} \\
+     \textbf{Frameworks}{: React JS, Node JS, Express JS, Ruby on Rails, EJS} \\
+     \textbf{Developer Tools}{: Github, CircleCI, Netlify, Heroku, jQuery, Bootstrap, Material-UI} \\
+     \textbf{Libraries}{: Axios, React-router, moment, WebSocket, socket.io, cookie-session, bcrypt } \\
+     \textbf{Automated-Testing}{: Mocha, Chai, Cypress, Jest, Storybook }
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://romantic-meninsky-7e0882.netlify.app/}
+          {\underline{Interview Scheduler}}} $|$ \emph{A Full-stack Single Page Web App that allows users to book,edit and cancel interview}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Front-end}: React, SCSS $|$ \textbf{Back-end}: Express, WebSocket, Node, PostgreSQL}
+            \resumeItem{\textbf{Automated-Testing}: Jest, Storybook, Cypress}
+            \resumeItem{\textbf{Deployment}: CircleCI, Heroku, Netlify, 
+            \href{https://github.com/andreiskandar/scheduler}{Github}}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/andreiskandar/quiz-app}{\underline{Quiz-App}}} $|$ \emph{A Full-stack Single Page Web App that allows users to create, take and share quizzes and to see results}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Front-end}: jQuery, EJS $|$ \textbf{Back-end}: Express, Node, ElephantSQL}
+            \resumeItem{\textbf{Unit-Testing}: Mocha, Chai}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/andreiskandar/tweeter}{\underline{Tweeter}}} $|$ \emph{A Simplified Single-Page App Twitter clone that allows users to compose and display tweets of 140 characters}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Front-end}: HTML/CSS, jQuery, AJAX $|$ \textbf{Back-end}: Express, Node, MongoDB}
+            \resumeItem{\textbf{Unit-Testing}: Mocha, Chai}
+          \resumeItemListEnd      
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Shift Production Supervisor}{Apr 2018 -- Jan 2020}
+      {CIPA Lumber Co. Ltd}{Delta, BC}
+      \resumeItemListStart
+        \resumeItem{Provided effective leadership to unionized workforce to ensure compliance with standard operating procedure}
+        \resumeItem{Identified potential safety hazards and take appropriate actions to control and/or eliminate hazards }
+        \resumeItem{Demonstrated continuous improvement by applying lean six sigma principles to maximize uptime and reduce waste}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Planer / Sawmill Quality Control Supervisor}{Apr 2014 -- Mar 2018}
+      {West Fraser}{Chetwynd, BC}
+      \resumeItemListStart
+        \resumeItem{Performed quality assurance functionality pertaining to lumber grading standards  }
+        \resumeItem{Managed quality control objectives and priorities and consolidated information with management in analyzing quality opportunities to develop and implement an effective quality control program}
+        \resumeItem{Demonstrated machine center studies to gain valuable insights into potentials for operational opportunities and quality improvements}
+    \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+  
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lighthouse Labs}{Vancouver, BC}
+      {Full Stack Web Development Bootcamp}{Aug 2020 - Nov 2020}
+    \resumeSubheading
+      {University of British Columbia}{Vancouver, BC}
+      {Bachelor of Science in Wood Products Processing, Minor in Commerce}{Sep 2008 - May 2013}
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+%-------------------------------------------
+\end{document}
