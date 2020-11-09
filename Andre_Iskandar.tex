@@ -3,7 +3,7 @@
 % Author : Andre Iskandar
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10.5pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -97,6 +97,7 @@
 \begin{document}
 
 %----------HEADING----------
+
 \begin{center}
     \textbf{\Huge \scshape Andre Mahajaya Iskandar} \\ \vspace{5pt}
     \textbf{\large Full Stack Web Developer}\vspace{5pt} \\
@@ -113,38 +114,63 @@ I am a technology-driven Full-stack Web Developer with a diverse skill set and b
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
 
+
+% \begin{tabular}{ l l }
+%     \textbf{Languages         } & JavaScript, HTML5/CSS, SQL  \\ 
+%     \textbf{Frameworks        } & React, Node, Express, EJS, Ruby on Rails  \\ 
+%     \textbf{Libraries         } & Axios, Moment, WebSocket, socket.io, cookie-session, bcrypt \\
+%     \textbf{Developer Tools   } & Github, CircleCI, Netlify, Heroku, jQuery, Bootstrap, Material-UI  \\
+%     \textbf{Automated-Testing } & Mocha, Chai, Cypress, Jest, Storybook
+% \end{tabular}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: JavaScript, HTML5/CSS, SQL} \\
+     \textbf{Languages}{: JavaScript, Ruby, HTML5/CSS, SQL} \\
      \textbf{Frameworks}{: React JS, Node JS, Express JS, Ruby on Rails, EJS} \\
      \textbf{Developer Tools}{: Github, CircleCI, Netlify, Heroku, jQuery, Bootstrap, Material-UI} \\
      \textbf{Libraries}{: Axios, React-router, moment, WebSocket, socket.io, cookie-session, bcrypt } \\
-     \textbf{Automated-Testing}{: Mocha, Chai, Cypress, Jest, Storybook }
+     \textbf{Automated-Testing}{: Mocha, Chai, Cypress, Jest, Storybook, Capybara, Poltergeist, Rspec }
     }}
  \end{itemize}
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{\href{https://github.com/andreiskandar/adtime-scheduling}
+          {\underline{ADTime Scheduling}}} $|$ \emph{A Full-stack Scheduler Web App with Slackbot integration allowing users to assign weekly shifts } \\ 
+          \emph{to employees, get reminders of upcoming events, request shift transfers, copy and paste schedule to following } \\
+          \emph{weeks,and change availability }}
+          
+           
+          \resumeItemListStart
+            \resumeItem{\textbf{Front-end}: React, SCSS $|$ \textbf{Back-end}: Express, PostgreSQL$|$ \textbf{Deployment}: Heroku}{}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{\href{https://github.com/andreiskandar/jungle}
+          {\underline{Jungle}}} $|$ \emph{A Full-stack E-Commerce Web App that is built using MVC architecture design. It allows users to} \\
+          \emph{add new category and products, add items to cart, purchase items, and make a payment using Stripe API}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Front-end}: React, SCSS $|$ \textbf{Back-end}: Ruby On Rails, ActiveRecord, PostgreSQL} 
+            \resumeItem{\textbf{Automated-Testing}: Capybara, Poltergeist, Rspec}
+          \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{\href{https://github.com/andreiskandar/scheduler}
           {\underline{Interview Scheduler}}} $|$ \emph{A Full-stack Single Page Web App that allows users to book, edit and cancel interview}}{}
           \resumeItemListStart
             \resumeItem{\textbf{Front-end}: React, SCSS $|$ \textbf{Back-end}: Express, WebSocket, Node, PostgreSQL}
-            \resumeItem{\textbf{Automated-Testing}: Jest, Storybook, Cypress}
-            \resumeItem{\textbf{Deployment}: CircleCI, Heroku, Netlify, Github}
+            \resumeItem{\textbf{Automated-Testing}: Jest, Storybook, Cypress $|$ \textbf{Deployment}: CircleCI, Heroku, Netlify, 
+            \href{https://romantic-meninsky-7e0882.netlify.app}{Github}}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{\href{https://github.com/andreiskandar/quiz-app}{\underline{Quiz-App}}} $|$ \emph{A Full-stack Single Page Web App that allows users to create, take and share quizzes and to see results}}{}
           \resumeItemListStart
-            \resumeItem{\textbf{Front-end}: jQuery, EJS $|$ \textbf{Back-end}: Express, Node, ElephantSQL}
-            \resumeItem{\textbf{Unit-Testing}: Mocha, Chai}
+            \resumeItem{\textbf{Front-end}: jQuery, EJS $|$ \textbf{Back-end}: Express, Node, ElephantSQL    $|$ \textbf{Unit-Testing}: Mocha, Chai}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{\href{https://github.com/andreiskandar/tweeter}{\underline{Tweeter}}} $|$ \emph{A Simplified Single-Page App Twitter clone that allows users to compose and display tweets of 140 characters}}{}
           \resumeItemListStart
-            \resumeItem{\textbf{Front-end}: HTML/CSS, jQuery, AJAX $|$ \textbf{Back-end}: Express, Node, MongoDB}
-            \resumeItem{\textbf{Unit-Testing}: Mocha, Chai}
+            \resumeItem{\textbf{Front-end}: HTML/CSS, jQuery, AJAX $|$ \textbf{Back-end}: Express, Node, MongoDB
+            $|$\textbf{Unit-Testing}: Mocha, Chai}
           \resumeItemListEnd      
     \resumeSubHeadingListEnd
 
@@ -157,7 +183,7 @@ I am a technology-driven Full-stack Web Developer with a diverse skill set and b
       {CIPA Lumber Co. Ltd}{Delta, BC}
       \resumeItemListStart
         \resumeItem{Provided effective leadership to unionized workforce to ensure compliance with standard operating procedure}
-        \resumeItem{Identified potential safety hazards and take appropriate actions to control and/or eliminate hazards }
+        \resumeItem{Identified potential safety hazards and took appropriate actions to control and/or eliminate hazards }
         \resumeItem{Demonstrated continuous improvement by applying lean six sigma principles to maximize uptime and reduce waste}
       \resumeItemListEnd
 
@@ -166,21 +192,29 @@ I am a technology-driven Full-stack Web Developer with a diverse skill set and b
       {West Fraser}{Chetwynd, BC}
       \resumeItemListStart
         \resumeItem{Performed quality assurance functionality pertaining to lumber grading standards  }
-        \resumeItem{Managed quality control objectives and priorities and consolidated information with management in analyzing quality opportunities to develop and implement an effective quality control program}
+        \resumeItem{Managed quality control objectives, priorities, and consolidated information with management in analyzing quality opportunities to develop and implement an effective quality control program}
         \resumeItem{Demonstrated machine center studies to gain valuable insights into potentials for operational opportunities and quality improvements}
     \resumeItemListEnd
+
+
   \resumeSubHeadingListEnd
   
 %-----------EDUCATION-----------
 \section{Education}
-
+  \resumeSubHeadingListStart
     \resumeSubheading
       {Lighthouse Labs}{Vancouver, BC}
-      {Full Stack Web Development Bootcamp}{Aug 2020 - Nov 2020}
+      {Diploma in Web Development}{Aug 2020 - Nov 2020}
     \resumeSubheading
       {University of British Columbia}{Vancouver, BC}
       {Bachelor of Science in Wood Products Processing, Minor in Commerce}{Sep 2008 - May 2013}
   \resumeSubHeadingListEnd
+
+
+
+
+
+
 
 %-------------------------------------------
 \end{document}
