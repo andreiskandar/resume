@@ -1,2 +1,2 @@
 # Resume
-[Andre Iskandar Resume] (http://www.andreiskandar.com/docs/andre_iskandar_resume.pdf)
+[Andre Iskandar Resume](http://www.andreiskandar.com/docs/Andre_Iskandar_Resume.pdf)
