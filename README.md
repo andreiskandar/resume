@@ -1,2 +1,2 @@
-# Andre Iskandar Resume
-[Andre Iskandar Resume](http://www.andreiskandar.com/docs/Andre_Iskandar_Resume.pdf)
+# [Personal Portfolio](http://www.andreiskandar.com)
+# [Andre Iskandar Resume](http://www.andreiskandar.com/docs/Andre_Iskandar_Resume.pdf)
